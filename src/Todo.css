@@ -1,0 +1,38 @@
+.todosList {
+    max-width: 500px;
+}
+
+.todo {
+    margin-bottom: 4px;
+    display: flex;
+    justify-content: center;
+    padding: 4px;
+}
+
+.todoLabel {
+    flex-grow: 1;
+    cursor: pointer;
+}
+
+.todoLabelDone {
+    flex-grow: 1;
+    cursor: pointer;
+    text-decoration: line-through;
+}
+
+.todoDate {
+    font-size: 0.8em;
+}
+
+.todo:hover {
+    background-color: lightgray;
+}
+
+.todoInput {
+    width: 300px;
+    margin-right: 8px;
+}
+
+.todoAdd {
+    margin-top: 8px;
+}
